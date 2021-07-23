@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock Price Checker</title>
+    <meta name="description" content="freeCodeCamp Stock Price Checker" />
+    <link rel="shortcut icon" href="public/icons/favicon-32x32.png" type="icon/png"/>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./public/style.css" />
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1>Stock Price Checker</h1>
+    <h4>Get single price and total likes</h4>
+    <form action="/api/stock-prices" method="GET" id="testForm2" class="border">
+      <input type="text" name="stock" placeholder="Stock name" required=""/>
+      <input type="checkbox" name="like" value="true" /> Like?<br />
+      <button type="submit">Get Price!</button>
+    </form>
+    <h4>Compare and get relative likes</h4>
+    <form action="/api/stock-prices" method="GET" id="testForm" class="border">
+      <input type="text" name="stock" placeholder="Stock name" required=""/>
+      <input type="text" name="stock" placeholder="Stock name" required="" />
+      <input type="checkbox" name="like" value="true" /> Like both?<br />
+      <button type="submit">Get Price!</button>
+    </form>
+    </div>
+  </body>
+</html>
