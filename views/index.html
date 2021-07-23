@@ -13,20 +13,18 @@
     <div id="mainContainer">
       <h1>Stock Price Checker</h1>
     <h4>Get single price and total likes</h4>
-    <form id="testForm2" class="border">
+    <form action="/api/stock-prices" method="GET" id="testForm2" class="border">
       <input type="text" name="stock" placeholder="Stock name" required=""/>
       <input type="checkbox" name="like" value="true" /> Like?<br />
       <button type="submit">Get Price!</button>
     </form>
     <h4>Compare and get relative likes</h4>
-    <form id="testForm" class="border">
+    <form action="/api/stock-prices" method="GET" id="testForm" class="border">
       <input type="text" name="stock" placeholder="Stock name" required=""/>
       <input type="text" name="stock" placeholder="Stock name" required="" />
       <input type="checkbox" name="like" value="true" /> Like both?<br />
       <button type="submit">Get Price!</button>
     </form>
-    <code id='jsonResult'></code>
     </div>
-      <script src="public/script.js"></script>
   </body>
 </html>
