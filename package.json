@@ -30,8 +30,5 @@
 		"node",
 		"express"
 	],
-	"license": "MIT",
-	"devDependencies": {
-		"gh-pages": "^3.2.3"
-	}
+	"license": "MIT"
 }
