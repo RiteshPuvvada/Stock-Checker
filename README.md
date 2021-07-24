@@ -44,7 +44,7 @@ $ cd Stock-Checker
 
 $ npm install
 
-$ npm run start 
+$ npm start or npm run dev 
 ```
 
 ## Usage:
