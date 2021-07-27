@@ -3,7 +3,6 @@
 <br>
 <h2>Stock Price Checker 🚀</h2>
 </div>
-<hr>
 
 ## Objective
 
