@@ -10,7 +10,7 @@
 	"author": {"name": "Ritesh Puvvada","email": "riteshpuvvada@gmail.com"},
 	"dependencies": {
 		"body-parser": "^1.20.0",
-		"chai": "^4.2.0",
+		"chai": "^4.3.6",
 		"chai-http": "^4.3.0",
 		"cors": "^2.8.5",
 		"dotenv": "^8.6.0",
