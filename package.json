@@ -22,7 +22,7 @@
 		"helmet": "^5.1.0",
 		"mocha": "^10.0.0",
 		"mongodb": "^4.7.0",
-		"mongoose": "^6.4.2",
+		"mongoose": "^6.4.3",
 		"node-fetch": "^3.2.6",
 		"nodemon": "^2.0.18",
 		"request": "^2.88.2"
