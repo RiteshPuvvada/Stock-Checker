@@ -23,7 +23,7 @@
 		"mocha": "^10.0.0",
 		"mongodb": "^4.7.0",
 		"mongoose": "^6.4.3",
-		"node-fetch": "^3.2.6",
+		"node-fetch": "^3.2.7",
 		"nodemon": "^2.0.19",
 		"request": "^2.88.2"
 	},
