@@ -24,7 +24,7 @@
 		"mongodb": "^4.8.0",
 		"mongoose": "^6.5.0",
 		"mongodb": "^4.8.1",
-		"mongoose": "^6.4.6",
+		"mongoose": "^6.5.1",
 		"node-fetch": "^3.2.10",
 		"nodemon": "^2.0.19",
 		"request": "^2.88.2"
